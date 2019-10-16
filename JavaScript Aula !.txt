@@ -1,0 +1,15 @@
+//alert("Olá Mundo");
+
+/*var nu1 = prompt("Digite o 1º numero");
+var nu2 = prompt("Digite o 2º numero");
+var soma = (parseInt(nu1)+ parseInt(nu2));
+alert("A soma dos numeros digitados é: " + soma);*/
+
+
+/*var anoNasc = prompt ("Digite seu ano de nascimento");
+var idade = 2019 - anoNasc;
+alert (idade);*/
+
+var media = (1+2+3)/3;
+console.log(media);
+

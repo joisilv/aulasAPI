@@ -1,0 +1,26 @@
+function somar(valor1,valor2){
+  var resultado = valor1 + valor2
+  
+  console.log(resultado);
+ 
+  
+}
+
+somar(6,7);
+
+somar(3,67890);
+
+
+------------------------------------------
+
+function calcularIMC (peso, altura){
+  
+  
+  let IMC = peso/altura**2;
+  
+  console.log('Seu IMC é: ' + IMC);
+  
+  return resultado
+}
+
+calcularIMC (90,1.70);

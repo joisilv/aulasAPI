@@ -1,0 +1,101 @@
+/*function calcularPonto(resultado){
+  if (resultado === 'v'){
+    return '3 pontos';
+  }else if (resultado === 'e'){
+    return '1 ponto';
+  }else if (resultado === 'd'){
+    return '0 ponto';
+  }else{
+    return 'Resultado desconhecido';
+  }
+  
+}
+
+console.log('Bora Bahia Minha Porra!!');
+console.log(calcularPonto('v'));
+console.log(calcularPonto('d'));
+console.log(calcularPonto('e'));*/
+
+
+
+
+/*function checkPalindrome(str) {     
+    for(var i = 0; i < str.length / 2; i++) 
+    if (str[i] != str[str.length - i - 1])
+    return false;
+    return true;
+}
+console.log(checkPalindrome("radar"));
+console.log(checkPalindrome("reviver"));
+console.log(checkPalindrome("palindromo"));*/
+
+
+
+function verificarNumero(num){
+  
+  let resto = num % 2;
+
+  if(resto == 0){
+      console.log('par');
+  }else {
+     console.log('impar');
+  }
+  
+}   
+let num = prompt("Digite um numero");
+verificarNumero(num);    
+
+
+
+-------------------------------------------------
+Segundo:
+
+function checkPalindrome(str){     
+    let compare = str.split('').reverse().join('');
+
+if (compare == str){
+  return "palidromo";
+} else {
+  console.log("não é");
+}
+}
+  
+console.log(checkPalindrome("radar"));
+
+
+----------------------------------------------------------------------
+
+Primeiro:
+let perguta = prompt('e ai?')
+
+let resultado = 1;
+ 
+switch (resultado) {
+    case 1:
+        console.log("venceu");
+        break;
+    case 2:
+        console.log("perdeu");
+     break;
+    case 3:
+        console.log("empate");
+    break;
+    
+} 
+
+-----------------------------------------------------------------------
+Terceiro:
+
+function verificarNumero(num){
+  
+  let resto = num % 2;
+
+  if(resto == 0){
+      console.log('par');
+  }else {
+     console.log('impar');
+  }
+  
+}   
+let num = prompt("Digite um numero");
+verificarNumero(num);   

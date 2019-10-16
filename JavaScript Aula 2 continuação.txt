@@ -1,0 +1,93 @@
+function calcularBaskara (a, b, c){
+  
+    let delta = (b**2) - (4*a*c);
+  
+    let x1 = (-b + Math.sqrt(delta))/(2*a);
+    let x2 = (-b - Math.sqrt(delta))/(2*a);
+    console.log('O valor de x1 é' + x1 + '. O valor de x2 é' + x2);
+    
+}
+
+calcularBaskara (1,5,4);
+
+---------------------------------------------------------
+unction calcularBaskara (a, b, c){
+  
+    let delta = (b**2) - (4*a*c);
+  
+    let x1 = (-b + Math.sqrt(delta))/(2*a);
+    let x2 = (-b - Math.sqrt(delta))/(2*a);
+    console.log('O valor de x1 é ' + x1 + '. O valor de x2 é ' + x2);
+    
+}
+
+calcularBaskara (1,5,4);
+
+
+
+function calcularDelta (a, b, c){
+  
+    let delta = (b**2) - (4*a*c);
+    console.log ('delta: ' + delta);
+    return delta
+
+}
+
+let deltaresult = calcularDelta (1,5,4);
+
+
+function calcularx1 (a, b, c){
+  
+    
+    let x1 = (-b + Math.sqrt(deltaresult))/(2*a);
+    console.log ('O valor de x1 é: '+ x1);
+  
+    return x1
+
+}
+
+calcularx1 (1,5,4);
+
+
+
+function calcularx2 (a, b, c){
+  
+    
+    let x2 = (-b - Math.sqrt(deltaresult))/(2*a);
+    console.log(' O valor de x2 é ' + x2);
+    return x2
+}
+
+calcularx2 (1,5,4);
+--------------------------------------------------------
+let idade = prompt("Digite sua idade em anos")
+
+function calcIdade(idade){
+	
+	let idadeDias = idade * 365;
+	console.log(idadeDias);
+	return(idadeDias);
+}
+
+calcIdade (idade); 
+
+------------------------------------------------------------------
+/*let bpm;
+
+function batimentosDia(bpm){
+	let minDia = 24 * 60;
+	let batDia = minDia * 70;
+	console.log(batDia)
+}
+
+batimentosDia(bpm);*/
+
+let minDia = 24 * 60;
+
+function batimentosDia(minDia){
+	
+	let batDia = minDia * 70;
+	console.log(batDia)
+}
+
+batimentosDia(minDia);

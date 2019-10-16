@@ -1,0 +1,14 @@
+Métodos JavaScript
+
+MAP (Mapeia a array (substitui o FOR))
+métod de interção
+
+For each
+arrow fuction
+
+Filter
+
+Sort
+
+
+
