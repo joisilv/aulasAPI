@@ -1,0 +1,27 @@
+npm start para iniciar (rodar o servidor)
+
+Variaveis com letras maiúscula normalmente são para valores fixos
+
+request é o parametro
+response é a resposta de sucesso que o servidor vai mandar.
+CORS definição para definir quem vai ou onde vai acessar meu site
+
+console.info a mesma coisa que o log e mostra sempre a informação
+
+API dever ser Crud para o projeto, ter get, post, patch e delete. São as rotas ou o que determinam as 
+rotas.
+
+No schema temso que definir parametros para cada um dos itens do nosso banco, por exemplo se é um item obrigatório.
+
+update é para atualizar os dados por exemplo substituir o id por tal nome
+
+mongoose que é uma require e módulo que instalamos no nosso servidor é o que conecta ao banco
+
+Site para busca de vips (descontos para eventos e entradas nas baladas) Sympla disponibiliza API pesquisar
+Site para comparar preços de pacotes de viagem (passagens, hotés, passeios)
+Site para finanças pessoais
+
+
+
+
+
